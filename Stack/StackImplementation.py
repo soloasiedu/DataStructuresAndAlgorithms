@@ -1,4 +1,18 @@
 
+#  A stack is an abstract data structure. It is just like a pile of plates.
+# You can add a new plate or remove a plate
+# If you want to get to the last last plate you have to remove all the plates on top 
+# of it first
+
+# Adding a new item on the stack is called a push. To push you first have to check if the stack is not
+# full
+
+# Removing an item from the stack is called a pop. To pop you have to check if the stack is empty
+
+
+
+
+
 def create_stack():
     stack = []
     return stack
