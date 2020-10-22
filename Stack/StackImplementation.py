@@ -9,7 +9,7 @@
 
 # Removing an item from the stack is called a pop. To pop you have to check if the stack is empty
 
-
+# Looking at the top item without removing it is called peeking
 
 
 
@@ -25,6 +25,8 @@ def push(stack, item):
     stack.append(item)
     print("pushed item: " + item)
 
+def peek(stack):
+    return stack[len(stack) - 1]
 
 def pop(stack):
     if (check_empty(stack)):
@@ -42,7 +44,8 @@ push(stack, str(88))
 
 print("Popped item: " + pop(stack))
 print("Stack after popping: " + str(stack))
-
+print("Peeking top item: " + peek(stack))
+print("Stack after peeking: " + str(stack))
 
 print(stack)
 
